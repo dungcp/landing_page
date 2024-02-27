@@ -80,11 +80,11 @@ const handleVisibleMenu = () => {
   ul.classList.toggle("visible");
 };
 
-bars.addEventListener("click", handleVisibleMenu);
-
 const handleCloseMenu = () => {
   ul.classList.remove("visible");
 };
+
+bars.addEventListener("click", handleVisibleMenu);
 
 // create nav-item append child to ul and handle active, scroll into view
 window.addEventListener("DOMContentLoaded", () => {
